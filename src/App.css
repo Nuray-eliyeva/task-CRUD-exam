@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+.container{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+/*------MENU------*/
+.menu .icon{
+ color: rgb(153, 150, 150);
+}
+.menu-top{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  align-items: center;
+}
+.search{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.search input{
+ border: none;
+}
+.logo{
+  border: 2px solid black;
+  padding: 5px 15px;
+}
+.nav-icons{
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+.menu-botm{
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 15px 0;
+  font-size: 16px;
+  color: rgb(83, 82, 82);
+}
+/*-----SHOP---*/
+.shop{
+  background-image:url("https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg.webp");
+  padding: 270px 0;
+  
+}
+.shop h1{
+  font-size: 60px;
+}
+.shop p{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+ .btn1{
+ border: none;
+ padding: 10px 20px;
+ font-size: 16px;
+ border-radius: 5px;
+ background-color: #7971EA;
+ color: white;
+}
+#shop-img{
+  width: 100%;
+  object-fit: cover;
+}
+.shop-right{
+  background-color: ;
+}
+/*----ABOUT-----*/
+.about{
+  padding: 70px 0;
+}
+.about .icon{
+  font-size: 30px;
+  color: #7971EA;
+}
+/*----COLLECTION---*/
+.collection{
+  padding: 30px 0;
+}
+.collection img{
+ width: 100%;
+ object-fit: cover;
+
+}
+.img{
+  position: relative;
+
+}
+.img:hover{
+  scale: 1.1;
+  transition: 0.8s all;
+ }
+ .img:hover img{
+  overflow: hidden;
+ }
+.txt{
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  color: rgb(57, 59, 60);
+}
+/*--------------*/
+.f-card{
+  border: 1px solid black;
+}
+/*----SALE---*/
+.sale{
+  padding: 150px ;
+  text-align: center;
+}
+.sale img{
+  width: 100%;
+}
+.sale h3{
+  text-align: center;
+  padding: 25px 0;
+ 
+}
+.sale h4{
+  font-size: 32px;
+  color: #7971EA;
+}
+.sale p{
+  color: rgb(154, 153, 153);
+}
+/*----FOOTER-----*/
+.lit-img{
+  width: 200px;
+  height: 100px;
+}
+.footer input{
+  border: none;
+}
+#last{
+  border: 2px solid lightgray;
+  height: 50px;
+}
+

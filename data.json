@@ -1,0 +1,25 @@
+{
+    "cards": [
+      {
+        "id": "1",
+        "img":"https://preview.colorlib.com/theme/shoppers/images/cloth_1.jpg.webp",
+        "name": "Tank Top",
+        "description": "Find perfect t-shirt",
+        "cost":"$50"
+      },
+      {
+        "id": "2",
+        "img":"https://preview.colorlib.com/theme/shoppers/images/cloth_1.jpg.webp",
+        "name": "Corater",
+        "description": "Find perfect snicker",
+        "cost":"$80"
+      },
+      {
+        "id": "3",
+        "img":"https://preview.colorlib.com/theme/shoppers/images/cloth_1.jpg.webp",
+        "name": "Polo Shirt",
+        "description": "Find perfect product",
+        "cost":"$70"
+      }
+    ]
+  }
