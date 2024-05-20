@@ -6,7 +6,7 @@ const Last = () => {
   <div className="footer">
     <div className="container">
         <div className="row">
-            <div className="col-lg-6 col-sm-4">
+            <div className="col-lg-6 col-sm-3">
                 <span>Naviqations</span>
                 <div className="row">
                     <div className="col-lg-4"><ul>
@@ -32,13 +32,13 @@ const Last = () => {
                 </div>
             </div>
 
-            <div className="col-lg-6 col-sm-4">
+            <div className="col-lg-6 col-sm-3">
                 <div className="row">
                     <div className="col-lg-6">
                         <span>Promo</span>
                         <ul>
                         <li><img src="https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg.webp" className='lit-img' alt="" /></li>
-                        <li><span>Find Your Perfect Shoes</span></li>
+                        <li><p>Find Your Perfect Shoes</p></li>
                         <li>Promo from nuary 15-25,2019</li>
                         </ul>
                     </div>

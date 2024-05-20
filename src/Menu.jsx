@@ -15,8 +15,20 @@ const Menu = () => {
     </div>
     <hr />
     <ul className='menu-botm'>
-        <li>HOME</li>
-        <li>ABOUT</li>
+        <li className='purpl'>HOME
+          <ul className='drpdown'>
+            <li>Menu one</li>
+            <li>Menu two</li>
+            <li>Menu tree</li>
+          </ul>
+        </li>
+        <li className='purpl'>ABOUT
+        <ul className='drpdown'>
+            <li>Menu one</li>
+            <li>Menu two</li>
+            <li>Menu tree</li>
+          </ul>
+        </li>
         <li>SHOP</li>
         <li>CATALOGUE</li>
         <li>NEW ARRIVALS</li>

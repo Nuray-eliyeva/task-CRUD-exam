@@ -7,6 +7,7 @@ import Sale from './Sale';
 import Last from './Last';
 import Feature from './Feature';
 import 'bootstrap/dist/css/bootstrap.css';
+import Form from './form';
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
       <Feature/>
       <Sale/>
       <Last/>
+      <Form/>
+     
     </div>
   )
 }

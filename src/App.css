@@ -1,8 +1,13 @@
+::selection {
+  background: #000;
+  color: #fff;
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
+  font-family:"Mukta", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .container{
   width: 100%;
@@ -30,13 +35,13 @@
  border: none;
 }
 .logo{
-  border: 2px solid black;
-  padding: 5px 15px;
+  border: 1px solid black;
+  padding: 5px 10px;
 }
 .nav-icons{
   display: flex;
   gap: 20px;
-  font-size: 20px;
+  font-size: 15px;
 }
 .menu-botm{
   width: 100%;
@@ -46,12 +51,30 @@
   padding: 15px 0;
   font-size: 16px;
   color: rgb(83, 82, 82);
+ 
+}
+.drpdown{
+  display: none;
+  z-index: 1;
+  
+}
+.menu-botm li:hover{
+ color: #7971EA;
+ transition: 0.5s all;
+ cursor: pointer;
+}
+.menu-botm li:hover .drpdown{
+  display: inline;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+.purpl{
+  color: #7971EA;
 }
 /*-----SHOP---*/
 .shop{
   background-image:url("https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg.webp");
   padding: 270px 0;
-  
 }
 .shop h1{
   font-size: 60px;
@@ -67,14 +90,16 @@
  border-radius: 5px;
  background-color: #7971EA;
  color: white;
+ margin-right: 10px;
+}
+.btn1:hover{
+  background-color: #504b98bc;
 }
 #shop-img{
   width: 100%;
   object-fit: cover;
 }
-.shop-right{
-  background-color: ;
-}
+
 /*----ABOUT-----*/
 .about{
   padding: 70px 0;
@@ -97,7 +122,7 @@
 
 }
 .img:hover{
-  scale: 1.1;
+  /*scale: 1.1;*/
   transition: 0.8s all;
  }
  .img:hover img{
@@ -109,9 +134,24 @@
   left: 30px;
   color: rgb(57, 59, 60);
 }
-/*--------------*/
-.f-card{
-  border: 1px solid black;
+/*-------FEATURE-------*/
+
+.feature{
+  background-color: rgba(236, 230, 230, 0.37);
+  text-align: center;
+  padding: 100px ;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.feature img{
+  width: 100%;
+  object-fit: cover;
+}
+.feature h4,
+.feature span{
+  color: #7971EA;
 }
 /*----SALE---*/
 .sale{
@@ -145,4 +185,13 @@
   border: 2px solid lightgray;
   height: 50px;
 }
+.footer span{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+   .menu-botm{
+     display: none;}
+    }
 

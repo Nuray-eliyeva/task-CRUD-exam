@@ -1,3 +1,4 @@
+import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
 const Feature = () => {
@@ -8,22 +9,28 @@ const Feature = () => {
       .then(data => setdata(data))
   }, [data])
 const deleteData = function (id) {
-  axios.delete(`http://localhost:8000/cards/${id}`)}
+  axios.delete(`http://localhost:8000/cards/${id}`)
+.then(res=>console.log(res.data))
+}
 return (
   <div className="feature">
     <div className="container">
     <div className="row">
-      <h3>Featured Product</h3>
+      <h3 className='mt-3 mb-5'>Featured Product</h3>
         {
           data.map(item => {
             return (
-
-              <div className="col-lg-4 col-md-6 col-12 f-card" key={item.id}>
-
-                <h4>{item.name}</h4>
+          
+              <div className="col-lg-4 col-md-6 col-12 f-card " key={item.id}>
+               <img src={item.file} alt="" />
+               
+                  <h4>{item.name}</h4>
                 <p>{item.description}</p>
                 <span>{item.cost}</span>
-                <button onClick={() => deleteData(item.id)}>X</button>
+                <div className="btn">
+                <button className='btn1'  onClick={() => deleteData(item.id)}>Delete</button>
+                <button className='btn1'>Details</button>
+                </div>
               </div>
             )
           
